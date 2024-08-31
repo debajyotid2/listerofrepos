@@ -14,7 +14,7 @@ cd listerofrepos
 go run . --lang cpp --n 18
 ```
 At this time, the number of repositories must be between 1 and 1000. The output looks like this:
-![output](https://github.com/user-attachments/assets/9bbc4b53-0f54-4325-8f43-a9f23d46fa1c)
+![output](https://github.com/user-attachments/assets/1649e064-1b8f-4605-8af0-c17eb8a2e777)
 
 To run unit tests, please run
 ```
