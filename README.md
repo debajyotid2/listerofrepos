@@ -5,12 +5,12 @@ This is a simple tool that lists the top repositories on GitHub for a given prog
 
 To fetch all dependencies, please clone the repository first, and then run
 ```
-cd listerofrepos
+cd listerofrepos/listerofrepos
 go mod tidy
 ```
 To fetch the top 18 repositories for a language, for example C++, please run
 ```
-cd listerofrepos
+cd listerofrepos/listerofrepos
 go run . --lang cpp --n 18
 ```
 At this time, the number of repositories must be between 1 and 1000. The output looks like this:
@@ -18,7 +18,7 @@ At this time, the number of repositories must be between 1 and 1000. The output 
 
 To run unit tests, please run
 ```
-cd listerofrepos
+cd listerofrepos/listerofrepos
 go test -v
 ```
 
