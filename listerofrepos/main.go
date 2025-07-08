@@ -36,9 +36,10 @@ const TIMEOUT_SECS = 30
 
 // Languages that are supported by the GitHub API
 var SUPPORTED_LANGUAGES = []string{
-	"c", "cpp", "csharp", "go",
-	"java", "javascript", "php", "python", "ruby",
-	"rust", "scala", "swift", "typescript",
+	"c", "cpp", "csharp", "clojure", "go", "haskell",
+	"java", "javascript", "ocaml", "php", "python", "ruby",
+	"rust", "scala", "swift", "typescript", "julia",
+    "terraform", "powershell", "shell", "dart", "perl",
 }
 
 func main() {
