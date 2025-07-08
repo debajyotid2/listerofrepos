@@ -39,7 +39,7 @@ var SUPPORTED_LANGUAGES = []string{
 	"c", "cpp", "csharp", "clojure", "go", "haskell",
 	"java", "javascript", "ocaml", "php", "python", "ruby",
 	"rust", "scala", "swift", "typescript", "julia",
-    "terraform", "powershell", "shell", "dart", "perl"
+    "terraform", "powershell", "shell", "dart", "perl",
 }
 
 func main() {
